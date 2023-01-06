@@ -132,6 +132,41 @@ header {
 }
 /* Plan end */
 
+/* Dream Start */
+.dream-container {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.dream-info {
+  margin-right: 86px;
+}
+.dream-title {
+  width: 350px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+}
+.dream-description {
+  width: 416px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.dream-list {
+  list-style: none;
+}
+.dream-list li {
+  color: #151414;
+  margin-bottom: 8px;
+}
+.dream-list li::before {
+  content: "✓";
+  margin-right: 10px;
+  color: #16d887;
+}
+/* Dream end */
+
 /* Call to action start*/
 .call-action {
   margin: 130px 0;
@@ -141,7 +176,7 @@ header {
       rgba(240, 91, 34, 100%),
       rgba(240, 91, 34, 0%)
     ),
-    url("../images/watch-2.png");
+    url("../images/watch.png");
   background-size: cover;
   border-radius: 8px;
 }
@@ -195,6 +230,8 @@ footer {
 .subscribe .email {
   width: 325px;
   border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 25px;
   background-color: transparent;
   padding: 22px;
   border-radius: 8px;
